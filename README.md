@@ -159,10 +159,20 @@ Financial Health Card
 > Add screenshots of:
 
 - Landing Page
+- <img width="1920" height="1080" alt="landing" src="https://github.com/user-attachments/assets/81dc5d34-dd22-4004-9109-6c348c12e911" />
+
 - Dashboard
+- <img width="1920" height="1080" alt="dashboard" src="https://github.com/user-attachments/assets/9bc1152e-f21e-4cc4-8524-8b3199802d12" />
+
 - Analyze Page
+- <img width="1920" height="1080" alt="analyze" src="https://github.com/user-attachments/assets/bd9888ee-275c-47cc-a4d1-bfa223f8bb8d" />
+
 - AI Processing
+- <img width="1920" height="1080" alt="processing" src="https://github.com/user-attachments/assets/a4cc3a34-1842-45a6-8d6a-44086eab16c6" />
+
 - Financial Health Card
+- <img width="1920" height="1080" alt="healthcard" src="https://github.com/user-attachments/assets/fd72ee54-c117-47a9-8c42-29c05f9db4ee" />
+
 
 ---
 
