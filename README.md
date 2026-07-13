@@ -1,75 +1,193 @@
-# React + TypeScript + Vite
+# 🏦 IDBI Vitality
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **AI-Powered MSME Financial Health Card**  
+> An Explainable AI solution for alternate-data-based MSME credit assessment, built for **IDBI Innovate 2026**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Problem Statement
 
-## React Compiler
+Traditional MSME credit evaluation relies heavily on financial statements and credit history. However, many **New-to-Credit (NTC)** and **New-to-Bank (NTB)** businesses lack sufficient financial documentation, leading to:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- High loan rejection rates
+- Missed lending opportunities
+- Limited financial inclusion
+- Longer credit assessment cycles
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 💡 Our Solution
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+**IDBI Vitality** is an AI-powered Financial Health Card that aggregates alternate financial signals such as:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- GST Compliance
+- UPI Transaction Activity
+- EPFO Workforce Stability
+- Account Aggregator Data (Mock)
+- Business Profile
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Using these signals, our system generates:
+
+- 📊 Financial Health Score
+- 🤖 AI Confidence Score
+- ✅ Loan Recommendation
+- 📈 Explainable Credit Analysis
+- 📄 Digital Financial Health Card
+
+---
+
+# ✨ Key Features
+
+- Modern Banking Dashboard
+- AI-powered MSME Analysis
+- Financial Health Card
+- Explainable AI Decision Support
+- AI Processing Workflow
+- Loan Recommendation Engine (Prototype)
+- Responsive UI
+- Enterprise Dashboard Design
+
+---
+
+# 🖥️ Demo Workflow
+
+Landing Page
+
+↓
+
+Dashboard
+
+↓
+
+Analyze MSME
+
+↓
+
+AI Processing
+
+↓
+
+Financial Health Card
+
+↓
+
+Loan Recommendation
+
+---
+
+# 🧠 AI Decision Pipeline
+
+Business Details
+
+↓
+
+Alternate Data Collection
+
+↓
+
+Feature Engineering
+
+↓
+
+AI Financial Health Scoring
+
+↓
+
+Explainability Layer
+
+↓
+
+Loan Recommendation
+
+↓
+
+Financial Health Card
+
+---
+
+# 🏗️ Prototype Architecture
 
 ```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+                React + Vite + TypeScript
+                        │
+                 Tailwind CSS UI
+                        │
+          -------------------------------
+          │                             │
+      Dashboard                    Analyze MSME
+          │                             │
+          -------- AI Processing -------
+                        │
+             Financial Health Card
+                        │
+             Explainable AI Results
 ```
+
+---
+
+# ⚙️ Technology Stack
+
+| Category | Technology |
+|----------|------------|
+| Frontend | React |
+| Build Tool | Vite |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| Routing | React Router |
+| Icons | Lucide React |
+| Charts | Recharts |
+| Animations | Framer Motion |
+
+---
+
+# 🚀 Future Scope
+
+- Account Aggregator Integration
+- GST API Integration
+- UPI Analytics Engine
+- OCEN Integration
+- ULI Integration
+- Explainable AI Models
+- Risk Prediction using ML
+- Real-time Banking APIs
+- Credit Monitoring Dashboard
+
+---
+
+# 📸 Screenshots
+
+> Add screenshots of:
+
+- Landing Page
+- Dashboard
+- Analyze Page
+- AI Processing
+- Financial Health Card
+
+---
+
+# ▶️ Installation
+
+```bash
+git clone https://github.com/TrueMenace/idbi-vitality.git
+
+cd idbi-vitality
+
+npm install
+
+npm run dev
+```
+
+---
+
+# 👨‍💻 Team
+
+**IDBI Innovate 2026**
+
+Developed as a prototype for AI-powered MSME Financial Health Assessment.
+
+---
+
+# 📄 License
+
+This repository is created solely for the **IDBI Innovate 2026 Hackathon** prototype demonstration.
